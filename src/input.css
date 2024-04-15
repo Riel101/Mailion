@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply bg-blue-900 text-gray-300;
+}
+
+.btn-active{
+    @apply bg-gray-300 text-blue-900;
+}

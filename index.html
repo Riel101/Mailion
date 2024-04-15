@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailion</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+</head>
+<body class="bg-gray-900 box-border text-gray-300">
+
+    <nav class="bg-transparent sticky top-0 left-0 px-[5%] py-4 text-gray-400 flex flex-row justify-between">
+        <div class="w-[20%] text-left">Logo</div>
+
+            <ul class="w-[50%] text-center sm:block hidden">
+                <li class="inline px-1 md:px-2 font-bold hover:text-blue-500 transition ease-out duration-500"><a href="#home">Home</a></li>
+                <li class="inline px-1 md:px-2 font-bold hover:text-blue-500 transition ease-out duration-500"><a href="#about">About</a></li>
+                <li class="inline px-1 md:px-2 font-bold hover:text-blue-500 transition ease-out duration-500"><a href="#product">Products</a></li>
+                <li class="inline px-1 md:px-2 font-bold hover:text-blue-500 transition ease-out duration-500"><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="w-auto text-center">
+                <h1>Welcome <span class="font-bold text-blue-500">User</span></h1>
+                <img src="" alt="">
+            </div>
+
+            <div class="sm:hidden">
+                <a href="#" class="hover:text-blue-500"><i class="fas fa-bars"></i></a>
+            </div>
+    </nav>
+    <header class="bg-blue-900 px-[5%] py-8 md:text-left text-center lg:flex md:justify-between" id="home" style="background-image: url(./img/space\,\ Stars\ Wallpapers\ HD\ _\ Desktop\ and\ Mobile\ Backgrounds.jpg);">
+        <div class="mt-20">
+            <h3 class="xl:text-7xl text-5xl  font-bold " id="sm-head">Mailion Multi-app</h3>
+            <h1 class="xl:text-3xl text-2xl font-bold mb-4"><span class="text-blue-500 font-bold">SIX</span> tools at your fingertips at once.</h1>
+
+            <!-- Try for free -->
+            <div class="flex flex-col items-center md:items-start" id="btn-group">
+                <h4 class="text-xl font-bold mb-2">Wanna try Email Validator for <span class="uppercase font-bold">free?</span></h4>
+                <input class="px-3 py-2 w-[80%] rounded outline-none focus:outline-blue-500 text-gray-300 bg-gray-900 mb-2" type="email" placeholder="Enter Email">
+                <button class="bg-gray-300 text-blue-900 font-bold px-3 py-2 rounded hover:bg-blue-900 hover:text-gray-300 transition ease-out duration-500">Validate Email</button>
+            </div>
+        </div>
+        <div>
+            <img src="./img/undraw_mail_sent_re_0ofv.svg" class="hidden md:block mt-6" alt="img">
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about" class="bg-blue-900 py-16">
+
+            <section class="px-[5%] py-8 flex flex-col sm:flex-row gap-4">
+                <div class="text-center rounded bg-gray-300 text-gray-800 py-4 px-4 lg:p-8">
+                    <h2 class="font-bold">What is Mailion</h2>
+
+                    <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore molestias veniam voluptates eaque placeat deserunt nobis dolorum, provident porro. Saepe nihil autem amet ipsum neque eius alias minima non dolorum!</p>
+                </div>
+                <div class="text-center rounded bg-gray-300 text-gray-800 py-4 px-4 lg:p-8">
+                    <h2 class="font-bold">Why should you try Mailion</h2>
+
+                    <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore molestias veniam voluptates eaque placeat deserunt nobis dolorum, provident porro. Saepe nihil autem amet ipsum neque eius alias minima non dolorum!</p>
+                </div>
+                <div class="text-center rounded bg-gray-300 text-gray-800 py-4 px-4 lg:p-8">
+                    <h2 class="font-bold">Our Products</h2>
+
+                    <p class="mt-2 mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore molestias veniam voluptates eaque placeat deserunt nobis dolorum, provident porro. Saepe nihil autem amet ipsum neque eius alias minima non dolorum!</p>
+
+                    <a class="bg-gray-300 text-blue-900 px-3 py-2 border border-blue-900  rounded hover:bg-blue-900 hover:text-gray-300 uppercase text-xs font-semibold transition ease-out duration-500" href="#product" >Try our Products</a>
+                </div>
+            
+            </section>
+            
+            <section id="testimony" class="px-[5%] bg-blue-900 text-center py-8 flex flex-col sm:flex-row gap-4">
+                <!-- Testimonies in a slide show -->
+                <div id="testiMony" class="md:w-[70%] flex flex-col items-center bg-gray-300 text-gray-800 rounded-md p-3">
+                    <img src="./img/undraw_male_avatar_g98d.svg" class="fill-current bg-gray-300 w-32 mb-3 border border-gray-300 rounded-full" alt="">
+                    <p class="font-semibold">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nisi dolorum et accusantium expedita nemo deserunt. Eum, in eos animi aut praesentium similique tempore iste beatae nam ducimus quidem distinctio."</p>
+                    <span class="italic font-light">-Writer's Name1</span>
+                </div>
+                <div id="testiMony" class="md:w-[70%] flex flex-col items-center bg-gray-300 text-gray-800 rounded-md p-3">
+                    <img src="./img/undraw_male_avatar_g98d.svg" class="fill-current bg-gray-300 w-32 mb-3 border border-gray-300 rounded-full" alt="">
+                    <p class="font-semibold">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nisi dolorum et accusantium expedita nemo deserunt. Eum, in eos animi aut praesentium similique tempore iste beatae nam ducimus quidem distinctio."</p>
+                    <span class="italic font-light">-Writer's Name2</span>
+                </div>
+                <div id="testiMony" class="md:w-[70%] flex flex-col items-center bg-gray-300 text-gray-800 rounded-md p-3">
+                    <img src="./img/undraw_male_avatar_g98d.svg" class="fill-current bg-gray-300 w-32 mb-3 border border-gray-300 rounded-full" alt="">
+                    <p class="font-semibold">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nisi dolorum et accusantium expedita nemo deserunt. Eum, in eos animi aut praesentium similique tempore iste beatae nam ducimus quidem distinctio."</p>
+                    <span class="italic font-light">-Writer's Name3</span>
+                </div>
+        
+            </section>
+            
+            <section class="mx-[5%] mt-16 text-center" id="register">
+                <h2 class="font-bold text-xl mb-2">Wanna Try Mailion Tools? <span class="text-blue-500"><span id="reg-word">Sign-Up</span> here</span></h2>
+
+                <button id="sign-up-btn" class="btn-active font-semibold px-3 py-1 border border-gray-300 rounded uppercase text-sm transition ease-out duration-500">Sign Up</button>
+                <button id="login-btn" class="btn font-semibold px-3 py-1 ml-4 border border-gray-300 rounded uppercase text-sm transition ease-out duration-500">Login</button>
+
+                    <form id="sign-up-form" action="#" class="mt-8 mb-16 flex flex-col items-center ">
+
+                        <div class="md:flex flex-row">
+                            <input class="px-3 py-2 w-[100%] md:mr-[2.5%] rounded outline-none focus:outline-blue-500 text-gray-300 bg-gray-900 mb-2" type="text" placeholder="Username" required>
+                            <input class="px-3 py-2 w-[100%] md:ml-[2.5%] rounded outline-none focus:outline-blue-500 text-gray-300 bg-gray-900 mb-2" type="email" placeholder="Email" required>
+                        </div>
+                        
+                        <div class="md:flex flex-row">
+                            <input class="px-3 py-2 w-[100%] md:mr-[2.5%]  rounded outline-none focus:outline-blue-500 text-gray-300 bg-gray-900 mb-2" type="password" placeholder="Password" required>
+                            <input class="px-3 py-2 w-[100%] md:ml-[2.5%] rounded outline-none focus:outline-blue-500 text-gray-300 bg-gray-900 mb-2" type="password" name="" id="" placeholder="Confirm password" required>
+                        </div>
+
+                        <label for="terms" class="text-xs flex">
+                            <input class="" type="checkbox" name="terms" id="terms" required>
+                            <p class="mx-1">I agree with</p> <a href="" class="font-bold hover:text-blue-500 transition ease-out duration-500">Terms and Conditions</a>
+                        </label>
+
+                        <input class="bg-blue-900 text-gray-300 font-bold px-3 py-1 mt-4 mb-4 border border-gray-300 rounded hover:bg-gray-300 cursor-pointer hover:text-blue-900 uppercase text-sm transition ease-out duration-500" type="submit" value="Create Account">
+    
+                    </form>
+
+                <div id="login-form" class="hidden mb-16 flex-col justify-center items-center">
+                    <form action="#" class="mt-8 md:flex flex-col items-center">
+
+                        <input class="px-3 py-2 w-[100%] md:mr-[2.5%] rounded outline-none focus:outline-blue-500 text-gray-300 bg-gray-900 mb-2" type="text" placeholder="Enter Username" required>
+                        <input class="px-3 py-2 w-[100%] md:mr-[2.5%]  rounded outline-none focus:outline-blue-500 text-gray-300 bg-gray-900 mb-2" type="password" placeholder="Password" required>
+                        <input class="bg-blue-900 text-gray-300 font-bold px-3 py-1 mt-4 border mb-4 border-gray-300 rounded hover:bg-gray-300 hover:text-blue-900 uppercase text-sm transition ease-out cursor-pointer duration-500" type="submit" value="Login">
+                    </form>
+                </div>
+            </section>
+
+        </section>
+        
+
+        <section id="product" class="my-20">
+            <div class="text-center">
+                <div class="mx-[5%] mt-8 flex flex-col sm:flex-row justify-center items-center">
+                    <div class="sm:w-1/3 w-[100%] sm:mr-4 sm:mb-0 mb-4 py-4 px-2 shadow-md shadow-gray-200 rounded-lg">
+                        <h3 class="font-bold">Product Name</h3>
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, laudantium?</p>
+                        <button class="product-btn bg-gray-300 text-blue-900 font-bold px-3 py-1 rounded hover:bg-blue-900 hover:text-gray-300 transition ease-out duration-500" data-id="0">Buy Now</button>
+                    </div>
+                    <div class="sm:w-1/3 w-[100%] sm:mr-4 sm:mb-0 mb-4 py-4 px-2 shadow-md shadow-gray-200 rounded-lg">
+                        <h3 class="font-bold">Product Name</h3>
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, laudantium?</p>
+                        <button class="product-btn bg-gray-300 text-blue-900 font-bold px-3 py-1 rounded hover:bg-blue-900 hover:text-gray-300 transition ease-out duration-500" data-id="1">Buy Now</button>
+                    </div>
+                    <div class="sm:w-1/3 w-[100%] sm:mb-0 py-4 px-2 shadow-md shadow-gray-200 rounded-lg">
+                        <h3 class="font-bold">Product Name</h3>
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, laudantium?</p>
+                        <button class="product-btn bg-gray-300 text-blue-900 font-bold px-3 py-1 rounded hover:bg-blue-900 hover:text-gray-300 transition ease-out duration-500" data-id="2">Buy Now</button>
+                    </div>
+                </div>
+                <div class="mx-[5%] mt-8 flex flex-col sm:flex-row justify-center items-center">
+                    <div class="sm:w-1/3 w-[100%] sm:mr-4 sm:mb-0 mb-4 py-4 px-2 shadow-md shadow-gray-200 rounded-lg">
+                        <h3 class="font-bold">Product Name</h3>
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, laudantium?</p>
+                        <button class="product-btn bg-gray-300 text-blue-900 font-bold px-3 py-1 rounded hover:bg-blue-900 hover:text-gray-300 transition ease-out duration-500">Buy Now</button>
+                    </div>
+                    <div class="sm:w-1/3 w-[100%] sm:mr-4 sm:mb-0 mb-4 py-4 px-2 shadow-md shadow-gray-200 rounded-lg">
+                        <h3 class="font-bold">Product Name</h3>
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, laudantium?</p>
+                        <button class="product-btn bg-gray-300 text-blue-900 font-bold px-3 py-1 rounded hover:bg-blue-900 hover:text-gray-300 transition ease-out duration-500">Buy Now</button>
+                    </div>
+                    <div class="sm:w-1/3 w-[100%] sm:mb-0 mb-4 py-4 px-2 shadow-md shadow-gray-200 rounded-lg">
+                        <h3 class="font-bold">Product Name</h3>
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, laudantium?</p>
+                        <button class="product-btn bg-gray-300 text-blue-900 font-bold px-3 py-1 rounded hover:bg-blue-900 hover:text-gray-300 transition ease-out duration-500" >Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <form id="contact" class="mx-[5%] my-16 flex flex-col items-center">
+            <h1 class="text-center pb-2 font-bold text-lg">Have any comments?</h1>
+            <div class="flex justify-center w-[100%]">
+                <input type="text" class="w-[100%] px-3 py-2 rounded outline-none mr-3 outline-blue-900 focus:outline-blue-500 text-gray-300 bg-gray-800 mb-2" placeholder="Enter your Fullname" required>
+                <input type="email" class="w-[100%] px-3 py-2 rounded outline-none outline-blue-900 ml-3 focus:outline-blue-500 text-gray-300 bg-gray-800 mb-2" placeholder="Enter your Email" required>
+            </div>
+            <textarea class="bg-gray-800 w-[100%] p-2 outline-none outline-blue-900 focus:outline-blue-500 my-2 rounded resize-none" name="" cols="30" rows="10" placeholder="Type your comments here" ></textarea>
+            <input type="submit" class="text-gray-300 bg-blue-900 font-bold px-8 py-1 rounded cursor-pointer hover:text-blue-900 hover:bg-gray-300 transition ease-out duration-500 mt-2" >
+        </form>
+
+    </main>
+
+    <!-- return to top -->
+    <a class="fixed right-8 hidden bottom-8 bg-blue-900 w-10 h-10 justify-center items-center animate-bounce shadow-md shadow-gray-400 rounded hover:animate-none" id="back-to-top" href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+        </svg>
+    </a>
+
+    <footer class="bg-gray-800 text-gray-500 px-[5%] pt-8">
+            <div class="flex justify-around">
+                <div class="flex flex-col justify-center">
+                    <span class="font-bold text-center">Haven't signed up?</span>
+                    <button class="bg-gray-800 text-gray-500 my-2 font-semibold px-3 py-1 border border-gray-500 rounded hover:bg-gray-500 hover:text-gray-800 uppercase text-sm transition ease-out duration-500"><a href="#register">Click to sign up</a></button>
+                    <button class="bg-gray-800 text-gray-500 my-2 font-semibold px-3 py-1 border border-gray-500 rounded hover:bg-gray-500 hover:text-gray-800 uppercase text-sm transition ease-out duration-500"><a href="#register">Click Me to Login</a></button>
+                </div>
+        
+                <ul>
+                    <li class="hover:text-blue-900"><a href="#about">About Us</a></li>
+                    <li class="hover:text-blue-900"><a href="#contact">Contact</a></li>
+                    <li class="hover:text-blue-900"><a href="#product">Our Products</a></li>
+                    <li class="hover:text-blue-900"><a href="#testimony">Testimony</a></li>
+                </ul>
+            </div>
+    
+            <div class="text-center text-sm mt-2">
+                <p>&copy; Copyright <a href="#home"></a> 2022. All rights reserved.</p>
+            </div>
+    </footer>
+
+        <!-- Pricing modal box -->
+        <section id="modalBox" class="w-[100%] h-[100%] hidden bg-gray-800 bg-opacity-70 fixed top-0 text-center text-gray-300">
+            <div class="w-[100%] sm:w-[50%] my-[20%] sm:my-[15%] mx-0 sm:mx-auto relative bg-gray-800 rounded">
+                <button id="close-btn" class="absolute top-1 right-2 hover:text-blue-500 transition ease-out duration-500"><i class="fas fa-x"></i></button>
+                <div class="p-4">
+                    <div class="my-2">
+                        <h1 id="p-name" class="font-bold">Product Name</h1>
+                        <h3>Payment plans</h3>
+                        <div id="modal-content" class="px-10 mt-2 ">
+<!--                             
+                            <div id="price-dtl" class="flex justify-between hover:bg-gray-700 px-2 rounded">
+                                <span>1 email</span>
+                                <span class="">5</span>
+                            </div>
+                            <div class="flex justify-between hover:bg-gray-700 px-2 rounded">
+                                <span>10 emails</span>
+                                <span class="">45</span>
+                            </div>
+                            <div class="flex justify-between hover:bg-gray-700 px-2 rounded">
+                                <span>100 emails</span>
+                                <span class="">350</span>
+                            </div>
+                            <div class="flex justify-between hover:bg-gray-700 px-2 rounded">
+                                <span>500 emails</span>
+                                <span class="">1,400</span>
+                            </div>
+                            <div class="flex justify-between hover:bg-gray-700 px-2 rounded">
+                                <span>1000 emails</span>
+                                <span class="">2700</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                        <input id="amount-tag" type="text" class="bg-gray-700 text-2xl rounded px-3 py-2 outline-none text-center"><br>
+                        <input id="amount-slider" class="w-[60%] my-2" type="range" min="0" max="1000000" step="50000" value="150">
+        
+                    <!-- price changes with respect to range input -->
+                    
+                    <div class="my-2">
+                        <a href="#" class="px-3 py-2 bg-blue-900 rounded text-sm">Get Started for Free</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <script src="./js/app.js"></script>
+</body>
+</html>
